@@ -1,0 +1,123 @@
+/* ----    Add your Google Fonts above the rest of your CSS       ----------------------------*/
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
+
+
+
+
+/* ----    Keep your CSS organized with comments       ----------------------------==========================================================
+
+CSS COPIED TO EACH PAGE
+
+================================================================== */
+
+    
+
+
+
+
+body.container-fluid {
+    background: grey;
+    color: white;
+    height: 100%;
+    margin:0px;
+}
+
+.logo {
+    width: 25%;
+    margin: 20px auto;
+    display: block;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width:100%;
+    padding: 20px;
+   margin-top: 15;
+   
+     
+}
+
+.navbutton {
+    display:block;
+    margin:0 auto;
+    width:100%;
+}
+.btn-group {
+    width:100%;
+    margin-bottom: 20px;
+}
+
+
+
+/* === ==========================================================
+
+CSS FOR BLOGS
+
+================================================================== */
+
+.lorem-ipsum {
+    font-weight:bolder;
+    color:black;
+    font-family: monospace;
+}
+
+
+#the-blogs {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom:20px;
+    width: 67%;
+    background: #1155ccff;
+    text-align: justify;
+   
+}
+
+.blog-title {
+    color: whitesmoke;
+    font-size: 35px;
+    font-family:cursive;
+    background: #1155ccff;
+}
+
+/* === ==========================================================
+
+CSS FOR index
+
+================================================================== */
+
+
+.background-img{
+    width:100%;
+    z-index: -1;
+}
+         
+.hours{
+    font-weight:bold;
+    color:#1155ccff;
+}
+
+
+.img{
+    margin:15px;
+    
+} 
+.imgself{
+    width:200px;
+    
+}
+
+.hi{
+    margin-top:20px;
+    
+}
+
+
+
+/*-- Keep all your "styling and designs" organized with comments! --*/
+
