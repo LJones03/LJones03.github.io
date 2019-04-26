@@ -17,8 +17,8 @@ CSS COPIED TO EACH PAGE
 
 
 body.container-fluid {
-    background: grey;
-    color: white;
+    background:grey;
+    color: whitesmoke;
     height: 100%;
     margin:0px;
 }
@@ -31,7 +31,7 @@ body.container-fluid {
 
 footer {
     background-color: black;
-    color: white;
+    color: whitesmoke;
     position: relative;
     bottom: 0;
     width:100%;
@@ -63,6 +63,7 @@ CSS FOR BLOGS
     font-weight:bolder;
     color:black;
     font-family: monospace;
+    
 }
 
 
@@ -73,9 +74,10 @@ CSS FOR BLOGS
     margin-top: 20px;
     padding-bottom:20px;
     width: 67%;
-    background: #1155ccff;
+   /*=== background: #1155ccff;===*/
     text-align: justify;
-   
+    padding-bottom:20px;
+    padding-top:20px;
 }
 
 .blog-title {
@@ -83,6 +85,19 @@ CSS FOR BLOGS
     font-size: 35px;
     font-family:cursive;
     background: #1155ccff;
+    
+    
+}
+
+.blog-content {
+    color: whitesmoke;
+    font-size: 19px;
+    font-family:cursive;
+    background: #1155ccff;
+    padding-left:40px;
+    padding-right: 40px; 
+    padding-bottom:40px;
+    padding-top:20px;
 }
 
 /* === ==========================================================
@@ -117,6 +132,12 @@ CSS FOR index
     
 }
 
+.blue{
+    color:whitesmoke;
+    
+    
+}
+    
 
 
 /*-- Keep all your "styling and designs" organized with comments! --*/
